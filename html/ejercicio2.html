@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Layout Con Tabla # 2</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .sizeLetra {
+            font-size: 10px;
+        }
+
+        .colorUno {
+            background-color: #FF99CC;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <tr>
+            <td>
+
+                <p>Mic.<br>
+                    Img.</p>
+                <p class="sizeLetra">120px w.</p>
+
+            </td>
+            <td colspan="2">
+
+                <p>Newspaper Title</p>
+                <p class="sizeLetra">320px w.</p>
+
+            </td>
+            <td>
+
+                <p>News<br>
+                    Img.</p>
+                <p class="sizeLetra">160px w.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="4">
+
+                <p> n <br>
+                    o <br>
+                    i <br>
+                    t <br>
+                    a <br>
+                    g <br>
+                    i <br>
+                    v <br>
+                    a <br>
+                    N </p>
+
+            </td>
+            <td class="colorUno" colspan="3">
+
+                <p class="sizeLetra">Headline - 480px w.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="colorUno" colspan="2">
+
+                <p>Photo of <br>
+                    Moon</p>
+                <p class="sizeLetra">320px w.</p>
+
+            </td>
+            <td class="colorUno" rowspan="3">
+
+                <p>Text</p>
+                <p class="sizeLetra">160px w.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="colorUno" colspan="2">
+
+                <p class="sizeLetra">Caption</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="colorUno">
+
+                <p>Text</p>
+                <p class="sizeLetra">160px w.</p>
+
+            </td>
+            <td class="colorUno">
+
+                <p>Text</p>
+                <p class="sizeLetra">160px w.</p>
+
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
